@@ -1,0 +1,4 @@
+breadcrumb.general_settings_form_tab:
+  route_name: breadcrumb.general_settings_form
+  title: Settings
+  base_route: breadcrumb.general_settings_form

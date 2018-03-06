@@ -1,0 +1,29 @@
+<?php
+
+namespace Drupal\Breadcrumb\EventSubscriber;
+
+use Symfony\Component\HttpKernel\KernelEvents;
+use Symfony\Component\EventDispatcher\EventSubscriberInterface;
+
+/**
+ * Class InitSubscriber.
+ *
+ * @package Drupal\Breadcrumb\EventSubscriber
+ */
+class InitSubscriber implements EventSubscriberInterface {
+
+  /**
+   * {@inheritdoc}
+   */
+  public static function getSubscribedEvents() {
+    return [KernelEvents::REQUEST => ['onEvent', 0]];
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function onEvent() {
+
+  }
+
+}

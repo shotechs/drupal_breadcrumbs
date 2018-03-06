@@ -1,0 +1,5 @@
+breadcrumb.general_settings_form:
+  route_name: breadcrumb.general_settings_form
+  title: 'Breadcrumb'
+  description: 'Controls settings for the module Breadcrumb'
+  parent: system.admin_config_ui

@@ -1,0 +1,7 @@
+breadcrumb.general_settings_form:
+  path: /admin/config/user-interface/Breadcrumb
+  defaults:
+    _title: 'Breadcrumb'
+    _form: \Drupal\Breadcrumb\Form\BreadcrumbGeneralSettingsForm
+  requirements:
+    _permission: 'administer Breadcrumb'
